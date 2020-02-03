@@ -1,0 +1,92 @@
+body {
+  background-color: #ffffff;
+}
+
+header {
+  background-color: #2055ef;
+  height: 650px;
+  width: 100%;
+}
+
+header .logo {
+  margin: 40px 20px 40px 30px;
+}
+
+header h1 {
+  text-transform: capitalize;
+  margin: 20px;
+  font-size: 50px;
+  font-weight: 700;
+  font-family: Arial, Helvetica, sans-serif;
+  line-height: 60px;
+  color: #ffffff;
+  background-color: #2055ef;
+}
+
+header h2 {
+  font-size: 30px;
+  text-transform: capitalize;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: 600;
+  color: #ffffff;
+  margin: 40px 10px 20px 20px;
+}
+header h3 {
+  font-size: 20px;
+  text-transform: capitalize;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: 600;
+  color: #ffffff;
+  margin: 0px 10px 80px 20px;
+}
+
+header a {
+  margin: 0px 10px 0px 20px;
+  padding: 15px 20px;
+  background-color: #ffffff;
+  color: #000000;
+  text-decoration: none;
+  font-size: 20px;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: 700;
+  text-transform: uppercase;
+  border: 2px snow #000000;
+}
+
+header a:hover {
+  background-color: #ff3d00;
+  color: #ffffff;
+}
+
+header .earn-img {
+  margin-top: 60px;
+  position: relative;
+  top: 40px;
+  height: auto;
+  width: 100%;
+}
+
+header .earn-img img {
+  height: 550px;
+  max-width: 100%;
+  display: block;
+}
+
+footer {
+  height: 50px;
+  margin-top: 20px;
+}
+
+footer h1 {
+  text-align: center;
+  text-transform: capitalize;
+  font-family: "Times New Roman", Times, serif;
+  margin-bottom: 20px;
+}
+
+footer p {
+  text-align: center;
+  text-transform: capitalize;
+  font-family: "Times New Roman", Times, serif;
+  margin-bottom: 5px;
+}
