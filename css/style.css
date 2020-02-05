@@ -1,5 +1,6 @@
 body {
   background-color: #ffffff;
+  position: ;
 }
 
 header {
@@ -89,4 +90,19 @@ footer p {
   text-transform: capitalize;
   font-family: "Times New Roman", Times, serif;
   margin-bottom: 5px;
+}
+
+@media (max-width: 768px) {
+  header a {
+    margin: 0px 5px 0px 20px;
+  }
+  header h1 {
+    margin: 20px 10px 0px 20px;
+  }
+  header h2 {
+    margin: 10px 10px 20px 20px;
+  }
+  header h3 {
+    margin: 0px 10px 20px 20px;
+  }
 }
